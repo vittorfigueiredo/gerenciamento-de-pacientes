@@ -24,7 +24,7 @@
                 <input type="password">
             </div>
 
-            <button>Cadastrar</button>
+            <button type="button"> <?php echo "<a href='register.php'>Registrar</a>"; ?> </button>
         </form>
 
     </div>
