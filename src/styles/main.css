@@ -1,0 +1,92 @@
+/* ESTILO DAS PÁGINAS */
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+
+    font: 700;
+    color: #000;
+    font-size: 38px;
+    text-align: center;
+
+    margin: 48px 0;
+
+}
+
+img {
+    height: 490px;
+    width: 490px;
+    padding-right: 72px;
+    
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    box-shadow: 15px 15px 42px rgba(0, 0, 0, 0.2);
+    width: 1100px;
+    height: 700px;
+    
+    margin: 128px auto;
+    border-radius: 48px;
+}
+
+form label {
+    font: 500;
+    font-size: 22px;
+    display: flex;
+    justify-content: left;
+
+    margin-bottom: 10px;
+    
+}
+
+form input {
+    border: solid;
+    border-color: rgba(252, 25, 25, 0.8);
+    outline: none;
+    box-shadow: 15px 15px 42px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+
+    width: 300px;
+    height: 32px;
+    padding: 6px;
+
+    margin-bottom: 18px;
+}
+
+form button {
+    color: white;
+    
+    font-size: 22px;
+    font: bold;
+
+    border: none;
+    border-radius: 12px;
+    background-color: #FC0100;;
+    outline: none;
+
+    margin: 0;
+    width: 318px;
+    height: 52px;
+}
+
+button:hover {
+    
+    cursor: pointer;
+    background-color: #FC1929;
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    margin-top: -58px;
+    margin-bottom: 32px;
+    
+}
