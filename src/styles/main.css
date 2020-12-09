@@ -3,11 +3,14 @@
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+body {
+    background-color: #F2F2F2
+}
 
 h1 {
 
     font: 700;
-    color: #000;
+    color: #203A40;
     font-size: 38px;
     text-align: center;
 
@@ -22,24 +25,25 @@ img {
     
 }
 
-.container {
+.container, .containerList {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    background-color: white;
 
-    box-shadow: 15px 15px 42px rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 15px 42px rgba(0, 0, 0, 0.1);
     width: 1100px;
     height: 700px;
     
-    margin: 128px auto;
-    border-radius: 48px;
+    margin: 100px auto;
+    border-radius: 4px;
 }
+
 
 form label {
     font: 500;
-    font-size: 22px;
+    font-size: 18px;
     display: flex;
     justify-content: left;
 
@@ -49,44 +53,85 @@ form label {
 
 form input {
     border: solid;
-    border-color: rgba(252, 25, 25, 0.8);
+    border-color: #F24B59;
     outline: none;
-    box-shadow: 15px 15px 42px rgba(0, 0, 0, 0);
-    border-radius: 8px;
+    border-radius: 4px;
 
     width: 300px;
     height: 32px;
     padding: 6px;
 
     margin-bottom: 18px;
+    background-color: #F2F2F2;
 }
 
-form button {
+button {
+    
+    font: 700;
+    text-decoration: none;
     color: white;
     
     font-size: 22px;
-    font: bold;
 
     border: none;
-    border-radius: 12px;
-    background-color: #FC0100;;
+    border-radius: 4px;
+    background-color:#F24B59;
     outline: none;
 
-    margin: 0;
     width: 318px;
     height: 52px;
 }
 
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    background-color: #F24B59;
+
+    padding: 2px;
+    border-radius: 4px;
+}
+
+a {
+    color: #BF495E;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+span {
+    color: #BF495E;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+header a {
+    text-align: center;
+}
+
+
 button:hover {
     
     cursor: pointer;
-    background-color: #FC1929;
-    transition: 0.5s;
+    background-color: #BF495E;
+    transition: 0.6s;
 }
 
 footer {
+    color: #203A40;
     text-align: center;
-    margin-top: -58px;
-    margin-bottom: 32px;
+    margin-top: -20px;
+    width: 100%;
     
 }

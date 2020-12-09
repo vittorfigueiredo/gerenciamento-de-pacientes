@@ -1,0 +1,36 @@
+/* ESTILO DAS PÁGINAS */
+
+@media only screen and (max-device-width: 900px) {
+    img {
+        display: none;
+    }
+
+    header nav.menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    body, .containerList{
+        margin-top: 0;
+        height: 30%;
+    }
+    
+    .container {
+        margin-top: 0;
+        max-width: 100%;
+    }
+    
+    form input {
+        width: 200px;
+    }
+
+    form h1 {
+        font: 700;
+        font-size: 32px;
+    }
+
+    footer {
+        bottom: 100%;
+    }
+}
