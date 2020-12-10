@@ -19,16 +19,15 @@ require ('./backend/functionList.php');
 <body>
 
     <header>
-        <h1 class="titulo">Lista de Pacientes</h1>
+        <h1 class="titulo">Pacientes cadastrados</h1>
 
         <nav class="menu">
             <a href="pacientRegister.php">Cadastrar Paciente</a>
-            <a href="list.php">Listar Pacientes</a>
-            <a href="./backend/logout.php">Logout</a>
+            <a href="backend/logout.php">Logout</a>
         </nav>
     </header>
 
-    <div class="container">
+    <div class="containerList">
 
         <div class="list-pacients">
             <table>

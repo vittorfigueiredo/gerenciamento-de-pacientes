@@ -13,6 +13,10 @@
 <body>
         <div class="container">
             
+            <!-- Imagem dos profissionais de saúde -->
+            <img src="./images/profissionais.jpg" alt="medicos">
+            
+            <!-- Fomulário de cadastro -->
             <form action="./backend/functionRegister.php" method="POST" name="formRegister">
                 <h1 class="titulo">Cadastre-se</h1>
                 
@@ -33,7 +37,7 @@
             <button type="submit">Cadastrar</button>
 
             <!-- Botaão para ir para a página de cadastro -->
-            <a class="linkLogin" href="login.php">Login</a>
+            <a id="linkLogin" href="login.php">Login</a>
         </form>
         
     </div>

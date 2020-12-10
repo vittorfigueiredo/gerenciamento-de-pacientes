@@ -20,13 +20,15 @@ require ('./backend/verificaLogin.php');
     <header>
         
         <nav>
-            <a href="#">Cadastrar Paciente</a>
-            <a href="#">Listar Pacientes</a>
-            <a href="#">Logout</a>
+            <a href="list.php">Listar Pacientes</a>
+            <a href="backend/logout.php">Logout</a>
         </nav>
     </header>
     
     <div class="container">
+
+        <!-- Imagem da enfermeira -->
+        <img src="./images/enfermeira.jpg" alt="medicos">
         
         <form action="./backend/pacientRegister.php" method="POST">
             <h1 class="titulo">Cadastrar paciente</h1>

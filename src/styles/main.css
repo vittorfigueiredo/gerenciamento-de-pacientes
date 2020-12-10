@@ -19,9 +19,11 @@ h1 {
 }
 
 img {
-    height: 490px;
-    width: 490px;
+    height: 480px;
+    width: 500px;
     padding-right: 72px;
+    margin-top: 50%;
+    margin-bottom: 50%;
     
 }
 
@@ -40,6 +42,12 @@ img {
     border-radius: 4px;
 }
 
+.containerList {
+    box-shadow: none;
+    background: none;
+    margin-top: 30px;
+    height: auto;
+}
 
 form label {
     font: 500;
@@ -62,7 +70,7 @@ form input {
     padding: 6px;
 
     margin-bottom: 18px;
-    background-color: #F2F2F2;
+    background-color: #F0F0F0;
 }
 
 button {
@@ -90,6 +98,23 @@ button {
     margin-right: 30px;
 }
 
+table th {
+    text-align: center;
+    width: 200px;
+    height: 10px;
+    line-height: 50px;
+    color: white;
+    background-color: #203A40;
+
+}
+
+table td {
+    text-align: center;
+    width: 200px;
+    height: 10px;
+    line-height: 40px;
+    background-color: #A9A9A9;
+}
 p {
     text-align: center;
     color: white;
@@ -105,6 +130,11 @@ a {
     display: block;
     text-align: center;
 }
+
+#linkLogin {
+    margin-top: 20px;
+}
+
 span {
     color: #BF495E;
 }
