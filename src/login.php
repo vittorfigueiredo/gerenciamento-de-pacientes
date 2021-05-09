@@ -1,7 +1,5 @@
 <?php
-
 session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -10,20 +8,16 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="./styles/main.css">
-    <title>Total Care - Login</title>
+    <title>Login - Total Care</title>
 </head>
 <body>
-
     <div class="container">
-        
         <!-- Imagem dos profissionais de saúde -->
         <img src="./images/profissionais.jpg" alt="medicos">
-        
         <!-- Formulário do login -->
         <form action="./backend/functionLogin.php" method="POST">
         <h1 class="titulo">Total Care</h1>
@@ -31,14 +25,13 @@ session_start();
         <?php
             if (isset($_SESSION['nao_autenticado'])):
         ?>
-
         <!-- menssagem de email ou senha errados -->
         <p>ERRO: E-mail ou senha inválidos!</p>
-        
         <?php
             endif;
             unset($_SESSION['nao_autenticado']);
         ?>
+
             <div class="email">
                 <label>E-mail:</label>
                 <input type="text" placeholder="Informe seu e-mail" name="email" required>
@@ -47,10 +40,8 @@ session_start();
                 <label>Senha:</label>
                 <input type="password" placeholder="Informe sua senha" name="senha" required>
             </div>
-            
             <!-- Botaão para realizar o login -->
             <button type="submit">Entrar</button>
-            
             <div class="links" >
                 <!-- Botaão para recuperar a senha -->
                 <a href="forgetPassword.php">Esqueceu a senha?</a>
@@ -59,10 +50,7 @@ session_start();
                 <a href="register.php">Cadastre-se</a>
             </div>
         </form>
-        
     </div>
-
-    <footer>©Copyright 2020 - Todos os direitos reservados!</footer>
-
+    <footer class="footer">Created by <a href="https://www.linkedin.com/in/vitorfigueiredopb/">Vitor Figueiredo</a> ;D</footer>
 </body>
 </html>

@@ -1,7 +1,5 @@
 <?php
-
 require ('./backend/verificaLogin.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -13,23 +11,18 @@ require ('./backend/verificaLogin.php');
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="./styles/main.css">
-    <title>Total Care - Cadastrar paciente</title>
+    <title>Cadastrar Paciente - Total Care</title>
 </head>
 <body>
-
     <header>
-        
         <nav>
             <a href="list.php">Listar Pacientes</a>
             <a href="backend/logout.php">Logout</a>
         </nav>
     </header>
-    
     <div class="container">
-
         <!-- Imagem da enfermeira -->
         <img src="./images/enfermeira.jpg" alt="medicos">
-        
         <form action="./backend/pacientRegister.php" method="POST">
             <h1 class="titulo">Cadastrar paciente</h1>
             <div class="nome">
@@ -48,14 +41,9 @@ require ('./backend/verificaLogin.php');
                 <label>Altura:</label>
                 <input type="text" name="altura" placeholder="Exemplo: 1.75" required>
             </div>
-
-            
             <button type="submit">Cadastrar</button>
-            
         </form>
     </div>
-
-    <footer>©Copyright 2020 - Todos os direitos reservados!</footer>
-
+    <footer class="footer">Created by <a href="https://www.linkedin.com/in/vitorfigueiredopb/">Vitor Figueiredo</a> ;D</footer>
 </body>
 </html>
